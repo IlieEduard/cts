@@ -2,6 +2,7 @@ package seminar1;
 
 import clase.Animal;
 import clase.Leu;
+import clase.Strutz;
 import clase.Zoo;
 
 public class Main {
@@ -14,6 +15,11 @@ public class Main {
 		zoo.addAnimal(leu1);
 		zoo.addAnimal(leu2);
 		zoo.feedAnimals();
+		
+		Strutz strutz=new Strutz("Strutzu");
+		Strutz strutz1=new Strutz("Strutza","grauntze");
+		zoo.addAnimal(strutz);
+		zoo.addAnimal(strutz1);
 	}
 
 }
